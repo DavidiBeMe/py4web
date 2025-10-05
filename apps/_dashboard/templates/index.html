@@ -63,7 +63,7 @@
             <input type="checkbox" id="traceback" checked>
             <label for="traceback">Cause of failure for {{selected_app.name}}</label>
             <div>
-                <pre style="background:red;color:black;padding:5px">{{selected_app.error}}</pre>
+                <pre style="background:#ff6000;color:black;padding:5px">{{selected_app.error}}</pre>
             </div>
         </div>
         <div class="panel accordion" v-if="selected_app && !selected_app.error">
